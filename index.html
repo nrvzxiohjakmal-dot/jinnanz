@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fushan County Hehui Technology Co., Ltd.</title>
+    <meta name="description" content="Fushan County Hehui Technology Co., Ltd. focuses on software development and software technical services.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            color: #333;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #212529;
+            color: white;
+            padding: 1.5rem 0;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .header-wrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo-text {
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: #42a5f5;
+        }
+        .hero {
+            background-color: #ffffff;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+        .hero p {
+            font-size: 1.1rem;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        section {
+            padding: 4rem 0;
+        }
+        .bg-white {
+            background-color: #ffffff;
+        }
+        section h2 {
+            text-align: center;
+            font-size: 1.7rem;
+            margin-bottom: 2rem;
+            color: #222;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+        .service-card {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .service-card h3 {
+            margin-bottom: 0.8rem;
+            color: #1976d2;
+        }
+        .about-text {
+            max-width: 850px;
+            margin: 0 auto;
+            font-size: 1.05rem;
+            color: #444;
+        }
+        footer {
+            background-color: #212529;
+            color: #bbb;
+            text-align: center;
+            padding: 2rem 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-wrap">
+            <div class="logo-text">Fushan County Hehui Technology Co., Ltd.</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Fushan County Hehui Technology Co., Ltd.</h1>
+            <p>We are a technology company dedicated to professional software development and software technical services.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-text">
+                <p>
+                    Fushan County Hehui Technology Co., Ltd. is a technology enterprise focusing on software research and development.
+                    Our core business covers custom software development, mobile application development, application maintenance and related technical support services.
+                    We focus on stable, safe and compliant software product development, and continuously optimize our technical capabilities to provide reliable software solutions.
+                </p>
+                <br>
+                <p>
+                    Our team adheres to standardized development processes, follows industry development specifications, and focuses on long-term iteration and maintenance of software products.
+                    We develop and operate compliant software applications for global users.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Mobile Software Development</h3>
+                    <p>Design and development of Android applications, including functional development, compatibility adaptation and product iteration.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Custom Software Development</h3>
+                    <p>Customized software development according to product requirements, including function design, coding, testing and release.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Software Technical Support</h3>
+                    <p>Long-term maintenance, bug fixing, version update and technical service support for released software products.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© <span id="year">2026</span> Fushan County Hehui Technology Co., Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
